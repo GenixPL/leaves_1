@@ -9,7 +9,7 @@ class MyImage:
     def __init__(self, file_name):
         self.file_name = file_name
 
-        path = './data/' + str(file_name) + '.png'
+        path = './raw_data/' + str(file_name) + '.png'
 
         # import img
         try:
