@@ -1,7 +1,4 @@
 import cv2
-from skimage.measure import compare_ssim
-
-from utils.my_image import MyImage
 
 file = open("results.txt", "w+")
 

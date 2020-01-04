@@ -3,7 +3,7 @@ import numpy as np
 
 
 class MyImage:
-    __low_green = np.array([35, 40, 40])
+    __low_green = np.array([32, 40, 35])
     __high_green = np.array([90, 255, 255])
 
     def __init__(self, file_name):
