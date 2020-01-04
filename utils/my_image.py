@@ -12,9 +12,12 @@ class MyImage:
         path = './data/' + str(file_name) + '.png'
 
         # import img
-        self.img = cv2.imread(path)
-        self.img_w = self.img.shape[0]
-        self.img_h = self.img.shape[1]
+        try:
+            self.img = cv2.imread(path)
+            self.img_w = self.img.shape[0]
+            self.img_h = self.img.shape[1]
+        except:
+            print path
 
         # create hsv
         self.hsv = cv2.cvtColor(self.img, cv2.COLOR_BGR2HSV)
@@ -89,6 +92,3 @@ class MyImage:
         cv2.drawContours(mask, [self.get_biggest_proper_contour()], -1, (255, 255, 255), -1)
 
         return mask
-
-
-
