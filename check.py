@@ -23,7 +23,13 @@ for a in range(0, 3):
                 greyscale_label = cv2.cvtColor(labelled_img, cv2.COLOR_BGR2GRAY)
                 thresh, black_white_label = cv2.threshold(greyscale_label, 10, 255, cv2.THRESH_BINARY)
 
-                (score, diff) = compare_ssim(black_white_my, black_white_label, full=True)
+                good_pixels = 0
+                for x in range(0, my_img.shape[0]):
+                    for y in range(0, my_img.shape[1]):
+                        if black_white_my[x, y] == black_white_label[x, y]:
+                            good_pixels += 1
+
+                score = float(good_pixels) / float(my_img.shape[0] * my_img.shape[1])
 
                 file.write(file_name + '\tscore: ' + str(score) + '\n')
 
