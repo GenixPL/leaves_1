@@ -1,7 +1,7 @@
 import cv2
 
 
-class SinglePlant:
+class SinglePlantCamera:
     __colors = [
         [255, 0, 0],
         [0, 255, 0],
@@ -13,19 +13,18 @@ class SinglePlant:
         [128, 0, 0],
     ]
 
-    def __init__(self, number):
-        for a in range(0, 3):  # 3
-            for c in range(0, 1):  # 10
-                for d in range(0, 1):  # 6
-                    if a == 0 and c == 0 and d == 0:
-                        self.__handle_first_img(a, number, c, d)
-                    else:
-                        self.__handle_other(a, number, c, d)
+    def __init__(self, a, b):
+        for c in range(0, 5):  # 10
+            for d in range(0, 3):  # 6
+                if c == 0 and d == 0:
+                    self.__handle_first_img(a, b, c, d)
+                else:
+                    self.__handle_other(a, b, c, d)
 
     def __handle_first_img(self, a, b, c, d):
         file_name = '0' + str(a) + '_0' + str(b) + '_00' + str(c) + '_0' + str(d)
 
-        img = cv2.imread('./created/rgb_' + file_name + '.png')
+        img = cv2.imread('./separated/rgb_' + file_name + '.png')
 
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         thresh, img_black_white = cv2.threshold(gray, 10, 255, cv2.THRESH_BINARY)
@@ -54,7 +53,7 @@ class SinglePlant:
 
     def __handle_other(self, a, b, c, d):
         file_name = '0' + str(a) + '_0' + str(b) + '_00' + str(c) + '_0' + str(d)
-        img = cv2.imread('./created/rgb_' + file_name + '.png')
+        img = cv2.imread('./separated/rgb_' + file_name + '.png')
 
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         thresh, img_black_white = cv2.threshold(gray, 10, 255, cv2.THRESH_BINARY)

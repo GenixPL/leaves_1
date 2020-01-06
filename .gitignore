@@ -1,8 +1,14 @@
 
-created/
+separated/
 
 data/
 
 labeled_data/
 
 raw_data/
+
+boundaries/
+
+colored/
+
+masks/

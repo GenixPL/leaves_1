@@ -12,7 +12,7 @@ for a in range(0, 3):
             for d in range(0, 6):
                 file_name = '0' + str(a) + '_0' + str(b) + '_00' + str(c) + '_0' + str(d)
 
-                my_img = cv2.imread('./created/rgb_' + file_name + '.png', cv2.COLOR_BGR2GRAY)
+                my_img = cv2.imread('./separated/rgb_' + file_name + '.png', cv2.COLOR_BGR2GRAY)
                 greyscale_my = cv2.cvtColor(my_img, cv2.COLOR_BGR2GRAY)
                 thresh, black_white_my = cv2.threshold(greyscale_my, 10, 255, cv2.THRESH_BINARY)
 

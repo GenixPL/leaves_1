@@ -30,9 +30,16 @@ class MyImage:
 
     def get_img_with_green_mask(self):
         # apply green mask
-        green = cv2.bitwise_and(self.img, self.img, mask=self.get_green_mask())
+        img_with_green_mask = cv2.bitwise_and(self.img, self.img, mask=self.get_green_mask())
 
-        return green
+        return img_with_green_mask
+
+    def get_img_with_boundary(self):
+        x, y, w, h = cv2.boundingRect(self.get_biggest_proper_contour())
+        copy = self.img.copy()
+        cv2.rectangle(copy, (x, y), (x + w, y + h), (0, 255, 0), 2)
+
+        return copy
 
     # GREEN
 
@@ -74,7 +81,7 @@ class MyImage:
     def get_biggest_proper_contour(self):
         proper_conts = self.get_proper_contours()
         biggest_area = 0
-        biggest_contour = proper_conts[0]
+        biggest_proper_contour = proper_conts[0]
 
         for cont in self.get_contours():
             x, y, w, h = cv2.boundingRect(cont)
@@ -82,13 +89,13 @@ class MyImage:
 
             if area > biggest_area:
                 biggest_area = area
-                biggest_contour = cont
+                biggest_proper_contour = cont
 
-        return biggest_contour
+        return biggest_proper_contour
 
     def get_biggest_contour_mask(self):
-        mask = np.zeros(self.img.shape[:2], np.uint8)
+        contour_mask = np.zeros(self.img.shape[:2], np.uint8)
 
-        cv2.drawContours(mask, [self.get_biggest_proper_contour()], -1, (255, 255, 255), -1)
+        cv2.drawContours(contour_mask, [self.get_biggest_proper_contour()], -1, (255, 255, 255), -1)
 
-        return mask
+        return contour_mask

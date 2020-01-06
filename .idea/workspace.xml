@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dd21f3e-0ecd-4d7e-ae6a-dc60ad8949e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/color.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colored/rgb_00_00_000_00.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/colored/rgb_00_01_000_00.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/colored/rgb_00_02_000_00.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/colored/rgb_00_03_000_00.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/colored/rgb_00_04_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_01_00_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_01_01_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_01_02_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_01_03_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_01_04_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_02_00_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_02_01_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_02_02_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_02_03_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colored/rgb_02_04_000_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/separate.py" beforeDir="false" afterPath="$PROJECT_DIR$/separate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/my_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/my_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/single_plant.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/single_plant.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +58,7 @@
       <recent name="C:\Users\genix\Projects\leaves_1\leaves_1_code\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.color">
+  <component name="RunManager" selected="Python.separate">
     <configuration name="check" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="leaves_1_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +144,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.separate_plant" />
+      <item itemvalue="Python.separate" />
       <item itemvalue="Python.check" />
       <item itemvalue="Python.color" />
       <item itemvalue="Python.check_color" />
@@ -173,22 +188,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578176790460" />
-    <state width="1261" height="337" key="GridCell.Tab.0.bottom" timestamp="1578179096111">
+    <state width="1275" height="273" key="GridCell.Tab.0.bottom" timestamp="1578318728843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578179096111" />
-    <state width="1261" height="337" key="GridCell.Tab.0.center" timestamp="1578179096111">
+    <state width="1275" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578318728843" />
+    <state width="1275" height="273" key="GridCell.Tab.0.center" timestamp="1578318728843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578179096111" />
-    <state width="1261" height="337" key="GridCell.Tab.0.left" timestamp="1578179096111">
+    <state width="1275" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578318728843" />
+    <state width="1275" height="273" key="GridCell.Tab.0.left" timestamp="1578318728843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578179096111" />
-    <state width="1261" height="337" key="GridCell.Tab.0.right" timestamp="1578179096111">
+    <state width="1275" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578318728843" />
+    <state width="1275" height="273" key="GridCell.Tab.0.right" timestamp="1578318728843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578179096111" />
+    <state width="1275" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578318728843" />
     <state width="1261" height="337" key="GridCell.Tab.1.bottom" timestamp="1578179096111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
