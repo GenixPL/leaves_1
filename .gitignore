@@ -8,3 +8,7 @@ boundaries/*
 colored/*
 
 *.pyc
+
+.idea/
+
+venv/
