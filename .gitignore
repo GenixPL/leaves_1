@@ -12,3 +12,7 @@ colored/*
 .idea/
 
 venv/
+
+results.txt
+
+results_color.txt
