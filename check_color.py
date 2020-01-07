@@ -6,7 +6,7 @@ lowest = 1
 amount = 0
 sum = 0
 
-for a in range(0, 3): 
+for a in range(0, 3):
     for b in range(0, 5):
         for c in range(0, 10):
             for d in range(0, 6):
