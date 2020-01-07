@@ -12,3 +12,5 @@ boundaries/
 colored/
 
 masks/
+
+*.pyc
