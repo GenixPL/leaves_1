@@ -1,5 +1,7 @@
 Coloring doesn't work.
 
+It's better to ignore commits (their names aren't good)
+
 ---
 
 `separate.py`, `check.py`, `color.py`, `check_color.py` are runnable scripts
