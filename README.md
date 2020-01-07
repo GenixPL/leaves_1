@@ -16,6 +16,7 @@ classes inside `utils/` are helping classes used in those scripts
 
 `separated/`, `masks/` and `boundaries/` have to exist
 
+0. import `opencv-python` and `numpy`
 1. run `separate.py`
 2. (optionally) run `check.py`
 3. run `color.py`
