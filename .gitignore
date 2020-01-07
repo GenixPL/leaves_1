@@ -1,16 +1,10 @@
 
-separated/
+separated/*
 
-data/
+masks/*
 
-labeled_data/
+boundaries/*
 
-raw_data/
-
-boundaries/
-
-colored/
-
-masks/
+colored/*
 
 *.pyc

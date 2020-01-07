@@ -2,28 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dd21f3e-0ecd-4d7e-ae6a-dc60ad8949e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_frontalcatface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_frontalface_alt2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_fullbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_lowerbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_profileface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_righteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_russian_plate_number.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_smile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_upperbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/tests/data/astype_copy.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/tests/data/recarray_from_file.fits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/data/py2-objarr.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/data/py2-objarr.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/data/py3-objarr.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/data/py3-objarr.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/data/python3.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/lib/tests/data/win64python2.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leaves_1_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leaves_1_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/color.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_00_00_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_00_01_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_00_02_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_00_03_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_00_04_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_01_00_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_01_01_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_01_02_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_01_03_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_01_04_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_02_00_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_02_01_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_02_02_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_02_03_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colored/rgb_02_04_000_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/separate.py" beforeDir="false" afterPath="$PROJECT_DIR$/separate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/my_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/my_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/single_plant.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/single_plant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_color.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -180,6 +192,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578176791359" />
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578409976980">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1578409976980" />
     <state width="509" height="466" key="DebuggerActiveHint" timestamp="1578172024444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -220,6 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1261" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578179096111" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1578410197840">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1578410197840" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
