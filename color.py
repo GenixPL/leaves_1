@@ -1,10 +1,10 @@
 import cv2
 
-from utils.single_plant import SinglePlantCamera
+from utils.plant_camera_setup import PlantCameraSetup
 
 for a in range(0, 3):
     for b in range(0, 5):
-        SinglePlantCamera(a, b)
+        PlantCameraSetup(a, b)
 
 
 cv2.waitKey(0)

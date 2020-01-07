@@ -1,7 +1,7 @@
 import cv2
 
 
-class SinglePlantCamera:
+class PlantCameraSetup:
     __colors = [
         [255, 0, 0],
         [0, 255, 0],
@@ -14,8 +14,8 @@ class SinglePlantCamera:
     ]
 
     def __init__(self, a, b):
-        for c in range(0, 5):  # 10
-            for d in range(0, 3):  # 6
+        for c in range(0, 10):
+            for d in range(0, 6):
                 if c == 0 and d == 0:
                     self.__handle_first_img(a, b, c, d)
                 else:
