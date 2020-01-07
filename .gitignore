@@ -16,3 +16,5 @@ venv/
 results.txt
 
 results_color.txt
+
+.DS_Store
