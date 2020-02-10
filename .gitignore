@@ -1,24 +1,2 @@
 
-separated/*
-!separated/.gitkeep
-
-masks/*
-!masks/.gitkeep
-
-boundaries/*
-!boundaries/.gitkeep
-
-colored/*
-!colored/.gitkeep
-
-*.pyc
-
-.idea/
-
-venv/
-
-results.txt
-
-results_color.txt
-
 .DS_Store
